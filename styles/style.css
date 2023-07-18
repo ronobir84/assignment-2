@@ -1,0 +1,127 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+}
+.nav-btn {
+  display: flex;
+  gap: 15px;
+  width: fit-content;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+}
+.nav-title {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+.hero-sub-title {
+  text-transform: uppercase;
+  color: #0b0223;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: -20px;
+}
+.hero-1 {
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.hero-des {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.hero-des p {
+  color: #534c64;
+  font-size: 20px;
+}
+.primary-btn {
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
+.secondary-btn {
+  border: none;
+  border-radius: 48px;
+  background-color: #4ec5f7;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.game-title {
+  font-size: 48px;
+  color: #0b0223;
+  text-align: center;
+}
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.game-des {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.img-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 15px;
+}
+.img-container p{
+    font-size: 20px;
+    color: #534C64;
+}
+
